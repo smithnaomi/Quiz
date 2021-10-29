@@ -29,5 +29,15 @@ var questions = [
         choices: ['script','scripting','javascript', 'js'],
         answer: 'script'
     },
+
+    {
+        title: 'Which of the following code creates an object?',
+        choices: [
+        'var pizza = Object();',
+        'var pizza = new Object();',
+        'var pizza = new OBJECT();',
+        'var pizza = new Book();'],
+        answer: 'var pizza = Object();'
+    },
     
 ]
