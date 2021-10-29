@@ -25,7 +25,7 @@ timer = setInterval(clock,1000)
 
 timeElements.textContent= time
 
-getnextquestion() 
+getnextquestion()  
 
 }
 function getnextquestion (){
