@@ -7,12 +7,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
+
   <body>
-    <div class="scores">
-      <a href="">high scores</a>
-    </div>
+    <div class="scores"><a href="highscore.html">high scores</a></div>
     <div class="timer">time<span id="time">0</span></div>
-    <div class="wrapper">
+    <section class="wrapper">
       <div id="start-screen" class="start">
         <h1>Coding Quiz</h1>
         <p>
@@ -33,14 +32,20 @@
         <h2>done</h2>
         <p>Your final score is <span id="final-score"></span></p>
         <p>
-          enter initials
+          Enter Initials:
           <input type="text" id="initials" />
           <button id="submit">Submit</button>
         </p>
       </div>
       <div id="feedback" class="feedback hide"></div>
-    </div>
-    <script src="./assets/js/questions.js"></script>
-    <script src="./assets/js/scrpit.js"></script>
+    </section>
+    <section>
+      <div class="wave wave1"></div>
+      <div class="wave wave2"></div>
+      <div class="wave wave3"></div>
+      <div class="wave wave4"></div>
+    </section>
   </body>
+  <script src="./assets/js/questions.js"></script>
+  <script src="./assets/js/scrpit.js"></script>
 </html>
